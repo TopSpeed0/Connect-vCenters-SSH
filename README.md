@@ -39,3 +39,12 @@ Feel free to contribute to the development of this script by opening issues or s
 
 ### License
 This project is licensed under the MIT License - see the [MIT License](LICENSE)  file for details.
+
+## Liability
+
+The software is provided "as is" without any warranty, whether express or implied. The user assumes all responsibility for the selection and use of the software. The author shall not be liable for any damages, including but not limited to any direct, indirect, or consequential loss or damages arising from the use of the software.
+
+## Warranty
+
+The author does not make any representations or warranties regarding the accuracy, completeness, or fitness for a particular purpose of the software or any information provided with the software. The author shall not be held responsible for any errors or omissions in the software or documentation.
+
