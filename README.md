@@ -25,7 +25,7 @@ This PowerShell script is designed to perform Start or Stop operations on the SS
 ```
 
 ### Note
-Both switches cannot be set at the same time. Choose either Start or Stop.
+Both switches cannot be set at the same time. Choose either Start or Stop or Enter to skip the Operation !.
 
 ### Configuration
 Update the ```$keyFile``` and ```$pswdFile``` variables with the correct paths to your AES key and password file.
