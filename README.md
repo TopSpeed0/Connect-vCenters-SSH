@@ -29,6 +29,30 @@ Both switches cannot be set at the same time. Choose either Start or Stop.
 
 ### Configuration
 Update the ```$keyFile``` and ```$pswdFile``` variables with the correct paths to your AES key and password file.
+
+```powershell
+# File locations
+$keyFile = "c:\Users\YourUser\Documents\VMware\aes.key"
+$pswdFile = "c:\Users\YourUser\Documents\VMware\pswd.txt"
+
+# Step 1 - Create key file
+$key = New-Object Byte[] 32
+[Security.Cryptography.RNGCryptoServiceProvider]::Create().GetBytes($key)
+$key | Out-File -FilePath $keyFile
+
+# Step 2 - Create password file with key encryption
+$pswd = Read-Host "Password Please"
+$secPswd = $pswd | ConvertTo-SecureString -AsPlainText -Force
+$secPswd | ConvertFrom-SecureString -Key (Get-Content -Path $keyFile) |
+Set-Content -Path $pswdFile
+
+<# alternatively
+Get-VICredentialStoreItem	This cmdlet retrieves the credential store items available on a vCenter Server system.
+New-VICredentialStoreItem	This cmdlet creates a new entry in the credential store.
+Remove-VICredentialStoreItem	This cmdlet removes the specified credential store items.
+#>
+
+```
 Set the vCenter Server information in the ```$Site1, $Site2, $Site3, $Site4, and $Site5 variables ```
 
 #### alternatively
