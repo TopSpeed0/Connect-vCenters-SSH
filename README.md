@@ -22,6 +22,7 @@ This PowerShell script is designed to perform Start or Stop operations on the SS
 
 ```powershell
 .\VMwareScript.ps1 -StartSSH
+```
 
 ### Note
 Both switches cannot be set at the same time. Choose either Start or Stop.
