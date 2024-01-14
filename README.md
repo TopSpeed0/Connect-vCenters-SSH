@@ -55,7 +55,7 @@ Remove-VICredentialStoreItem	This cmdlet removes the specified credential store 
 ```
 Set the vCenter Server information in the ```$Site1, $Site2, $Site3, $Site4, and $Site5 variables ```
 
-#### alternatively
+#### Alternatively
 you can use alternativly this to set the connection to not use store cred in a file.
 ```Get-VICredentialStoreItem```	This cmdlet retrieves the credential store items available on a vCenter Server system.
 ```New-VICredentialStoreItem```	This cmdlet creates a new entry in the credential store.
