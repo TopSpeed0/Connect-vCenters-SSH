@@ -31,6 +31,14 @@ Both switches cannot be set at the same time. Choose either Start or Stop.
 Update the ```$keyFile``` and ```$pswdFile``` variables with the correct paths to your AES key and password file.
 Set the vCenter Server information in the ```$Site1, $Site2, $Site3, $Site4, and $Site5 variables ```
 
+#### alternatively
+you can use alternativly this to set the connection to not use store cred in a file.
+```Get-VICredentialStoreItem```	This cmdlet retrieves the credential store items available on a vCenter Server system.
+```New-VICredentialStoreItem```	This cmdlet creates a new entry in the credential store.
+```Remove-VICredentialStoreItem```	This cmdlet removes the specified credential store items.
+
+you then must modified the script !.
+
 ### Logging
 Error logs are saved to the C:\Logs\VMwareScriptErrors.log file.
 
