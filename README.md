@@ -38,4 +38,4 @@ Error logs are saved to the C:\Logs\VMwareScriptErrors.log file.
 Feel free to contribute to the development of this script by opening issues or submitting pull requests.
 
 ### License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [MIT License](LICENSE)  file for details.
