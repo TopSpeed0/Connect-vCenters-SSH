@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) [2024] [Yitzha Bohadana]
+Copyright (c) 2024 Yitzha Bohadana
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -11,6 +11,12 @@ furnished to do so, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
+
+Liability
+The software is provided "as is" without any warranty, whether express or implied. The user assumes all responsibility for the selection and use of the software. The author shall not be liable for any damages, including but not limited to any direct, indirect, or consequential loss or damages arising from the use of the software.
+
+Warranty
+The author does not make any representations or warranties regarding the accuracy, completeness, or fitness for a particular purpose of the software or any information provided with the software. The author shall not be held responsible for any errors or omissions in the software or documentation.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
