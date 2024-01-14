@@ -28,8 +28,8 @@ This PowerShell script is designed to perform Start or Stop operations on the SS
 Both switches cannot be set at the same time. Choose either Start or Stop.
 
 ### Configuration
-Update the $keyFile and $pswdFile variables with the correct paths to your AES key and password file.
-Set the vCenter Server information in the $Site1, $Site2, $Site3, $Site4, and $Site5 variables.
+Update the ```$keyFile``` and ```$pswdFile``` variables with the correct paths to your AES key and password file.
+Set the vCenter Server information in the ```$Site1, $Site2, $Site3, $Site4, and $Site5 variables ```
 
 ### Logging
 Error logs are saved to the C:\Logs\VMwareScriptErrors.log file.
